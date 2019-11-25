@@ -1,0 +1,21 @@
+{
+  "list": [
+    {
+      "host": "downstreamservice.herokuapp.com",
+      "available": "1",
+      "healthCheck": "/"
+    },
+    {
+      "host": "downstreamservicev2.herokuapp.com",
+      "available": "1",
+      "healthCheck": "/"
+    },
+    {
+      "host": "host3.perosa.com",
+      "available": "0",
+      "online": "0",
+      "healthCheck": "/"
+    }
+  ]
+}
+
