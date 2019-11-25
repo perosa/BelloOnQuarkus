@@ -20,8 +20,7 @@ docker run -i --rm -p 8080:8080 -v /config:/software/config -e "strategy=weighte
 
 ### What happened ###
 
-This was achieved with only few code changes: use RESTEasy Controller instead of Undertow HttpListener, 
-register a class for reflection  (@RegisterForReflection).
+This was achieved with few code changes: use RESTEasy Controller instead of Undertow HttpListener, add reflection-config.json to register classes for reflection, leveraging on javax.json.bind for JSON deserialization.
 
 
 
